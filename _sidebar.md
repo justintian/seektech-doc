@@ -24,6 +24,7 @@
 * [报表](./doc/报表/report)
   * [仪表盘](./doc/报表/dashboard)
   * [统计报表](./doc/报表/statistic)
+* [API文档](./doc/api/index)
 
 * [关于](./about/index)
 
