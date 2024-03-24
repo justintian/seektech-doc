@@ -1,12 +1,15 @@
-<!-- docs/_sidebar.md -->
+<!-- _sidebar.md -->
 
 
-* [HOME](./)
+* [主页](./)
 
-* [Tutorials](./tutorials/index)
-  * [Tomcat](./tutorials/tomcat/index)
-  * [Cloud](./tutorials/cloud/index)
-  * [Java](./tutorials/java/index)
+* [知识库管理](./doc/知识库管理/kb)
+  * [创建知识库](./doc/知识库管理/create)
+  * [上传知识文件](./doc/知识库管理/create)
+  * [上传知识关联文件](./doc/知识库管理/create)
+  * [编辑知识库](./doc/知识库管理/create)
+  * [删除知识库](./doc/知识库管理/create)
+  * [共享知识库](./doc/知识库管理/create)
 
 * [About](./about/index)
 
