@@ -24,7 +24,13 @@
 * [报表](./doc/报表/report)
   * [仪表盘](./doc/报表/dashboard)
   * [统计报表](./doc/报表/statistic)
-* [API文档](./doc/api/index)
+* [API文档](./doc/接口文档/index)
+  * [认证授权](./doc/接口文档/sso)  
+  * [知识库管理]()
+    * [上传知识库文件](./doc/接口文档/知识库管理/上传知识库文件/upload_file.md)
+      * [获取知识库文件预签名上传链接](./doc/接口文档/知识库管理/上传知识库文件/get_file_upload_link.md)
+      * [更新知识库文件](./doc/接口文档/知识库管理/上传知识库文件/edit_knowledge_file.md)
+    * [删除知识库文件](./doc/接口文档/知识库管理/删除知识库文件/delete_knowledege_file.md)
 
 * [关于](./about/index)
 

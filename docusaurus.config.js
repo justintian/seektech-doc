@@ -6,17 +6,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Clicknium',
-  url: 'https://clicknium.github.io',
-  baseUrl: '/clicknium-docs/',
+  title: 'Seektech',
+  url: 'https://justintian.github.io',
+  baseUrl: '/seektech-doc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'clicknium', // Usually your GitHub org/user name.
-  projectName: 'clicknium-docs', // Usually your repo name.
+  organizationName: 'seektech', // Usually your GitHub org/user name.
+  projectName: 'seektech-doc', // Usually your repo name.
   deploymentBranch: 'master-deploy',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -56,9 +56,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Clicknium Docs',
+        title: 'Seektech Docs',
         logo: {
-          alt: 'Clicknium Logo',
+          alt: 'Seektech Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -69,7 +69,7 @@ const config = {
           //   label: 'Docs',
           // },
           {
-            href: 'https://github.com/clicknium/clicknium-docs',
+            href: 'https://justintian.github.io/seektech-doc',
             label: 'GitHub',
             position: 'right',
           },
