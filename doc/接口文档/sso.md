@@ -1,8 +1,4 @@
----
-sidebar_position: 2
-sidebar_label: 认证授权
----
-# 说明
+# 认证授权
 认证接口请求目标服务器为SSO（单点登录）。
 
 ## 获取令牌

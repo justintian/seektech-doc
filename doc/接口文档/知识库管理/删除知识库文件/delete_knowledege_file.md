@@ -1,7 +1,3 @@
----
-sidebar_position: 9
-sidebar_label: 删除知识库文件
----
 # 删除知识库文件
 
 删除指定知识库的文件。
