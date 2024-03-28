@@ -6,10 +6,19 @@
 
 - Path： /connect/token
 - Method： POST
-- 请求注意点：
-    1. Header中Content-Type应设置为application/x-www-form-urlencoded 
-    clientid、granttype为固定值password，用户名及密码为对应账号密码。
-    2. clientid说明：应用调用值为STClient。
+
+### 请求消息头
+
+公共请求消息头是所有API请求都必需的参数。为减少内容重复，公共请求将不在各API详情中列出。
+|名称	|描述	|示例|
+| ----------- | ----------- | ----------- | 
+Content-type	|指定请求消息体中的MIME类型	|固定为application/x-www-form-urlencoded|
+clientid	|固定值STClient	||
+granttype	|固定值password	||
+scope	|固定值openid profile api1	||
+username	|用户名	||
+password	|密码	||
+
 
 - 响应参考示例：
     ```
@@ -29,8 +38,17 @@
 
 - Path： /connect/token
 - Method： POST
-- 请求注意点：
-    Header中Content-Type应设置为application/x-www-form-urlencoded, clientid、granttype为固定值refresh_token。
+
+### 请求消息头
+
+公共请求消息头是所有API请求都必需的参数。为减少内容重复，公共请求将不在各API详情中列出。
+|名称	|描述	|示例|
+| ----------- | ----------- | ----------- | 
+Content-type	|指定请求消息体中的MIME类型	|固定为application/x-www-form-urlencoded|
+clientid	|固定值STClient	||
+granttype	|固定值refresh_token	||
+refresh_token	|获取令牌返回的refresh_token	||
+
 
 - 响应参考示例：
     ```
