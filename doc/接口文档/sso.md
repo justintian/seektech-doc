@@ -12,12 +12,17 @@
 公共请求消息头是所有API请求都必需的参数。为减少内容重复，公共请求将不在各API详情中列出。
 |名称	|描述	|示例|
 | ----------- | ----------- | ----------- | 
-Content-type	|指定请求消息体中的MIME类型	|固定为application/x-www-form-urlencoded|
-clientid	|固定值STClient	||
-granttype	|固定值password	||
-scope	|固定值openid profile api1	||
-username	|用户名	||
-password	|密码	||
+Content-Type	|指定请求消息体中的MIME类型	|固定为application/x-www-form-urlencoded|
+
+### 请求消息体
+
+|名称	|描述	|
+| ----------- | ----------- |
+|client_id	|固定值STClient	|
+|grant_type	|固定值password	|
+|scope	|固定值openid profile api1 offline_access|
+|username	|用户名	|
+|password	|密码	|
 
 
 - 响应参考示例：
@@ -44,15 +49,21 @@ password	|密码	||
 公共请求消息头是所有API请求都必需的参数。为减少内容重复，公共请求将不在各API详情中列出。
 |名称	|描述	|示例|
 | ----------- | ----------- | ----------- | 
-Content-type	|指定请求消息体中的MIME类型	|固定为application/x-www-form-urlencoded|
-clientid	|固定值STClient	||
-granttype	|固定值refresh_token	||
-refresh_token	|获取令牌返回的refresh_token	||
+Content-Type	|指定请求消息体中的MIME类型	|固定为application/x-www-form-urlencoded|
+
+### 请求消息体
+
+|名称	|描述	|
+| ----------- | ----------- |
+client_id	|固定值STClient	|
+grant_type	|固定值refresh_token	|
+refresh_token	|获取令牌接口返回的refresh_token	|
 
 
 - 响应参考示例：
     ```
     {
+        id_token: "this is a string",    // (不使用)访问令牌
         access_token: "this is a string",    // 访问令牌
         expires_in: "this is a string",    // 令牌过期时间，单位秒
         token_type: "this is a string",    // 令牌类型
