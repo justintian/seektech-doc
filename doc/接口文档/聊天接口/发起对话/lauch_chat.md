@@ -30,10 +30,15 @@
 
     ```
     {
-        "state": 1,    // 应用状态
-        "remark": "汽车知识库",    // 应用描述
-        "id": "appID",    // 应用id 
-        "name": "appName",    // 应用名称
-        "tempLinkExpired": null    // 临时链接有效期
-    }   
+        "id": "5769cbf3-aa0f-4159-8c4e-ecf7b53cfb1d",
+        "answer": "你好"
+    },
+    {
+        "id": "5769cbf3-aa0f-4159-8c4e-ecf7b53cfb1d",
+        "answer": "！有什么我"
+    },
+    {
+        "id": "5769cbf3-aa0f-4159-8c4e-ecf7b53cfb1d",
+        "answer": "可以帮助您的吗？"
+    },
     ```

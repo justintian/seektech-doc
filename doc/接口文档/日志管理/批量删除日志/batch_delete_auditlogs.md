@@ -2,7 +2,7 @@
 批量删除指定的用户操作日志
 
 - Path： /v1/auditlogs/batch-delete
-- Method：DELETE
+- Method：POST
 
 - 请求Body参考示例：
 
