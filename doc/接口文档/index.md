@@ -12,8 +12,8 @@
 ## 构造请求
 ### 服务端点
 
-本文档主要涉及SSO和API两个服务端点。API为后台接口提供统一的调用入口，SSO负责提供统一的认证鉴权服务。对于需要认证的接口，均需要在Authorization请求头中带上SSO签发的token信息，格式为Authorization: Bearer <token>。
-说明： Bearer和<token>之间需留一个空格。
+本文档主要涉及SSO和API两个服务端点。API为后台接口提供统一的调用入口，SSO负责提供统一的认证鉴权服务。对于需要认证的接口，均需要在Authorization请求头中带上SSO签发的token信息，格式为Authorization: Bearer \<token\>。
+说明： Bearer和\<token\>之间需留一个空格。
 SSO 服务端点：******
 API 服务端点：******
 
