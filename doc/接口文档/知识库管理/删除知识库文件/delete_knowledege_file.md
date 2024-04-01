@@ -10,6 +10,6 @@
     ```
     {
     "id": "this is a guid string",    // 知识库id 
-    "fileid": "this is a guid string",    // 文件id  
+    "fileId": "this is a guid string",    // 文件id  
     }
     ```
