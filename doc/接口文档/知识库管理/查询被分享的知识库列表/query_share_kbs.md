@@ -1,17 +1,20 @@
 # 查询被分享的知识库
-根据当前用户被分享的知识库
+查询用户被分享的知识库
 
-- Path： /v1/knowledgebases/{id}/share-kbs
+- Path： /v1/knowledgebases/share-kbs
 
 - Method： GET
 
-- 请求路由参考示例:
 
-  ```
-  {
-      "id": "this is a guid string",    // 知识库id 
-  } 
-  ```
+- 请求Query参数示例:
+
+|参数名      |描述 |
+|----------- |----------- |
+|UserId  |用户id |
+|SearchWord  |查询关键字, 支持知识库名称的模糊搜索 |
+|Tag  |知识库标签 |
+|PageSize  |查询分页大小 |
+|PageNumber  |查询页码 |
 
 - 响应参考示例:
 
@@ -21,7 +24,7 @@
     "list": [
          {
           "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",  //知识库id
-          "name": "string", //知识库name
+          "name": "string", //知识库名称
           "remark": "string",  //主题
           "embeddingMethod": "string", //嵌入方式
           "tags": [  //标签

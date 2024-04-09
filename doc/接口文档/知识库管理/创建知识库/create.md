@@ -25,7 +25,7 @@
   ```
   {
       "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",  //知识库id
-      "name": "string", //知识库name
+      "name": "string", //知识库名称
       "remark": "string",  //主题
       "embeddingMethod": "string", //嵌入方式
       "tags": [  //标签

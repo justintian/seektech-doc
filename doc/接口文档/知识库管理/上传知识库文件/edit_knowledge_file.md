@@ -3,15 +3,14 @@
 根据对应的存储服务，使用获取的上传链接和存储key上传文件。
 
 - Path： /v1/knowledgebases/{id}/files
+
 - Method：POST
 
 - 请求路由参考示例：
 
-    ```
-    {
-        "id": "this is a guid string",    // 知识库id 
-    }
-    ```
+|参数名      |描述 |
+|----------- |----------- |
+|id  |知识库id |
 
 - 请求Body参考示例：
 

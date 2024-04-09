@@ -1,6 +1,8 @@
 ## 创建角色
 - Path：/v1/roles
+
 - Method：POST
+
 - 请求Body参考示例：
 
     ```
@@ -16,7 +18,7 @@
 
     ```
     {
-        "id":"this is an integer",    // 角色的id
+        "id":0,    // 角色的id
         "name":"this is a string", //角色名称
         "code":"this is a string",    // 角色编码
         "description":"this is a string",  //角色描述

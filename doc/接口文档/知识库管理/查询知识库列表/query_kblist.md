@@ -5,15 +5,26 @@
 
 - Method： GET
 
+- 请求Query参数示例:
+
+|参数名      |描述 |
+|----------- |----------- |
+|SearchWord  |查询关键字, 支持知识库名称的模糊搜索 |
+|Tag  |知识库标签 |
+|IsPublic  |是否公开 |
+|PageSize  |查询分页大小 |
+|PageNumber  |查询页码 |
+
+
 - 响应参考示例:
 
   ```
   {
-    "count": 0,
+    "count": 0, //满足查询条件的知识库的数量，可以计算需要分页的页码数量
     "list": [
           {
               "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",  //知识库id
-              "name": "string", //知识库name
+              "name": "string", //知识库名称
               "remark": "string",  //主题
               "embeddingMethod": "string", //嵌入方式
               "tags": [  //标签

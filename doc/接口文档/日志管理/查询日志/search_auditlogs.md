@@ -3,20 +3,19 @@
 查询用户操作的日志列表
 
 - Path： /v1/auditlogs
+
 - Method：GET
 
-- 请求查询参考示例：
+- 请求Query参数示例:
 
-    ```
-    {
-        "SearchKey": "string",    // 筛选条件
-        "StartTime": "string",    // 筛选起始时间
-        "EndTime": "string",    // 筛选结束时间
-        "PageSize": 20,    // 单页条数
-        "PageNumber": 1,    // 页码数
-    }
+|参数名      |描述 |
+|----------- |----------- |
+|SearchKey  |查询关键字, 支持用户昵称, 操作信息, 操作模块进行模糊筛选 |
+|StartTime  |筛选起始时间 |
+|EndTime  |筛选结束时间 |
+|PageNumber  |查询页码 |
+|PageSize  |查询分页大小 |
 
-    ```
 - 响应参考示例：
 
     ```

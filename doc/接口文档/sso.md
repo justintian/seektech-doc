@@ -10,9 +10,10 @@
 ### 请求消息头
 
 公共请求消息头是所有API请求都必需的参数。为减少内容重复，公共请求将不在各API详情中列出。
-|名称	|描述	|示例|
+
+|名称	|描述	|示例   |
 | ----------- | ----------- | ----------- | 
-Content-Type	|指定请求消息体中的MIME类型	|固定为application/x-www-form-urlencoded|
+Content-Type	|指定请求消息体中的MIME类型	|固定为application/x-www-form-urlencoded |
 
 ### 请求消息体
 
@@ -47,7 +48,8 @@ Content-Type	|指定请求消息体中的MIME类型	|固定为application/x-www-
 ### 请求消息头
 
 公共请求消息头是所有API请求都必需的参数。为减少内容重复，公共请求将不在各API详情中列出。
-|名称	|描述	|示例|
+
+|名称	|描述	|示例   |
 | ----------- | ----------- | ----------- | 
 Content-Type	|指定请求消息体中的MIME类型	|固定为application/x-www-form-urlencoded|
 

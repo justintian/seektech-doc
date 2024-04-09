@@ -6,25 +6,8 @@
 
 - Method： POST
 
-- 请求路由参考示例:
+- 请求路由参考示例：
 
-  ```
-  {
-      "fileId": "this is a guid string",    // 文件id 
-  } 
-  ```
-
-- 响应参考示例:
-
-  ```
-  {
-    "type": "string",
-    "title": "string",
-    "status": 0, 
-    "detail": "string",
-    "instance": "string",
-    "additionalProp1": "string",
-    "additionalProp2": "string",
-    "additionalProp3": "string"
-  }
-  ```
+|参数名      |描述 |
+|----------- |----------- |
+|fileId  |文件id |

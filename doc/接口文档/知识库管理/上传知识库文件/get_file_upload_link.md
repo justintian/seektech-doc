@@ -3,15 +3,14 @@
 根据使用的存储服务，获取上传链接和存储key。
 
 - Path： /v1/knowledgebases/{id}/files/upload
+
 - Method：POST
 
 - 请求路由参考示例：
 
-    ```
-    {
-        "id": "this is a guid string",    // 知识库id 
-    }
-    ```
+|参数名      |描述 |
+|----------- |----------- |
+|id  |知识库id |
 
 - 请求Body参考示例：
 
@@ -25,10 +24,8 @@
 
     ```
     {
-        "kbid":"this is a guid string",    // 知识库id
+        "kbId":"this is a guid string",    // 知识库id
         "filelink"："this is a string" // 上传链接
         "savepath": "this is a string" // 存储key
-        "createdAt": "2023-05-05T06:22:48.373Z",
-        "lastUpdateAt": "2023-05-05T06:22:48.374Z"
     }    
     ```

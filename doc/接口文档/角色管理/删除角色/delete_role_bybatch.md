@@ -1,9 +1,12 @@
 ## 批量删除角色
+
 - Path：/v1/roles/batch-delete
-- Method：POST
+
+- Method：DELETE
+
 - 请求Body参考示例：
 
   ```
   {
-      "idList":[],  //角色id列表
+      "idList":[1,2,3],  //角色id列表
   }  

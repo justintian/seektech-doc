@@ -5,14 +5,12 @@
 
 - Method： GET
 
-- 请求路由参考示例:
+- 请求路由参考示例：
 
-  ```
-  {
-      "id": "this is a guid string",    // 知识库id
-      "fileId": "this is a guid string",    // 文件id 
-  } 
-  ```
+|参数名      |描述 |
+|----------- |----------- |
+|id  |知识库id |
+|fileId  |文件id |
 
 - 响应参考示例:
 

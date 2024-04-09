@@ -5,20 +5,21 @@
 - Path： /v1/chat/reference-link
 - Method：GET
 
-- 请求查询参考示例：
+- 请求Query参数示例:
 
-    - 如果是匿名访问，需添加Code参数
+`如果是授权访问，无需添加Code查询参数，如果是匿名访问，需添加Code参数（在匿名发布应用的访问链接里）`
 
-    ```
-    {
-        "Code": "this is code of anonymous app ",    // 应用Code
-    }
-    ```
+|参数名      |描述 |
+|----------- |----------- |
+|Code  |匿名应用Code |
+|Page  |页码 |
+|Source  |参考路径, 存储key |
+
 - 响应参考示例：
 
     ```
     {
         "url": "string",    // 引用链接
-        "source": "string"    // 引用路径
+        "source": "string"    // 参考路径, 存储key
     }
     ```

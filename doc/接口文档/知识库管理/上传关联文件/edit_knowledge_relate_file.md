@@ -5,21 +5,20 @@
 
 - Method： POST
 
-- 请求路由参考示例:
+- 请求路由参考示例：
 
-  ```
-  {
-      "id": "this is a guid string",    // 知识库id 
-  }
-  ```
+|参数名      |描述 |
+|----------- |----------- |
+|id  |知识库id |
+|fileId  |文件id |
 
 - 请求Body参考示例:
 
   ```
   {
-    "name": "string",//文件名称
-    "size": 0,//文件大小
-    "savePath": "string"//文件地址
+    "name": "string",// 文件名称
+    "size": 0,// 文件大小
+    "savePath": "string"// 存储key
   }
   ```
 
@@ -27,11 +26,11 @@
 
   ```
   {
-    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-    "knowledgeFileId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-    "name": "string",
-    "size": 0,
-    "savePath": "string",
-    "state": 0
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6", // 关联文件id
+    "knowledgeFileId": "3fa85f64-5717-4562-b3fc-2c963f66afa6", // 知识库文件id
+    "name": "string", // 关联文件名称
+    "size": 0, // 关联文件大小
+    "savePath": "string", // 存储key
+    "state": 0 // 文件向量化状态
   }
   ```

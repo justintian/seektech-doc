@@ -1,16 +1,18 @@
-## 授予用户指定角色
+## 批量分配角色
 - Path：/v1/roles/{roleId}/assign
+
 - Method：POST
+
 - 请求路由参考示例：
-    ```
-    {
-        "roleid":"this is a integer",  //角色id
-    }
-    ```
+
+|参数名      |描述 |
+|----------- |----------- |
+|roleId  |角色id |
+
 - 请求Body参考示例：
 
   ```
   {
-      "idList":[],  //用户id列表
+      "idList":[1,2,3],  //用户id列表
   }    
   ```

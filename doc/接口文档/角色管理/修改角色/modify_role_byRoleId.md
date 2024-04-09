@@ -1,13 +1,14 @@
 ## 修改角色
 - Path：/v1/roles/{roleId}
+
 - Method：PUT
 
 - 请求路由参考示例：
-    ```
-    {
-        "roleid":"this is an integer",  //角色id
-    }
-    ```
+
+|参数名      |描述 |
+|----------- |----------- |
+|roleId  |角色id |
+
 - 请求Body参考示例：
 
   ```
@@ -23,7 +24,7 @@
 
     ```
     {
-        "id":"this is an integer",    // 角色的id
+        "id":0,    // 角色的id
         "name":"this is a string", //角色名称
         "code":"this is a string",    // 角色编码
         "description":"this is a string",  //角色的描述

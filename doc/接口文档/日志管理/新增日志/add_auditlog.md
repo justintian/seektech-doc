@@ -1,8 +1,9 @@
 # 新增用户日志
 
-将用户的操作保存至数据库
+新增用户的操作日志
 
 - Path： /v1/auditlogs
+
 - Method：POST
 
 - 请求Body参考示例：
