@@ -16,8 +16,39 @@
       el: "#app",
       repo: 'https://github.com/justintian/seektech-doc/tree/main',
       loadSidebar: true,
+       // 搜索框
+      search: {
+        paths: 'auto',
+        placeholder: '🔍 搜索',
+        noData: '😒 找不到结果',
+        // Headline depth, 1 - 6
+        depth: 6,
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      },
+
+      // 回到顶部
+      scrollToTop: {
+        auto: true,
+        text: '🔼',
+        right: 12,
+        bottom: 52,       
+        offset: 25
+      },
+
+      // 复制样式
+      copyCode: {
+        buttonText: 'Copy',
+        errorText: 'Error',
+        successText: 'OK!'
+      },
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- 全局搜索 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- 回到顶部功能 -->
+  <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
+  <!-- 复制到剪切板 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
 </body>
 </html>
