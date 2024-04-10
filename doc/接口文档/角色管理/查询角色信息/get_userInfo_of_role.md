@@ -1,4 +1,6 @@
-## 获取角色分配的用户信息
+# 获取角色分配的用户信息
+获取角色分配的用户信息
+
 - Path：/v1/roles/{roleId}/users
 
 - Method：GET

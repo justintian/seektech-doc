@@ -1,5 +1,4 @@
 # 文件重新向量化
-
 将上传时向量化失败的文件重新向量化
 
 - Path： /v1/knowledgebases/{fileId}/vectorize

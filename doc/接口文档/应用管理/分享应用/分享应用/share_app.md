@@ -1,5 +1,4 @@
 # 分享应用
-
 将应用分享给指定用户
 
 - Path： /v1/applications/{id}/share

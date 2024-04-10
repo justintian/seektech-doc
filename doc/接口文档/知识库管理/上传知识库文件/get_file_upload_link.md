@@ -1,5 +1,4 @@
 # 获取知识库文件预签名上传链接
-
 根据使用的存储服务，获取上传链接和存储key。
 
 - Path： /v1/knowledgebases/{id}/files/upload

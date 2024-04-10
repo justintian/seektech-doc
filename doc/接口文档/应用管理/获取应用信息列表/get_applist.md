@@ -1,5 +1,4 @@
 # 获取应用列表
-
 获取所有应用列表
 
 - Path： /v1/applications

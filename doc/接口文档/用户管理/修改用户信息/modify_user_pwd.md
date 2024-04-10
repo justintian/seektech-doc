@@ -1,4 +1,6 @@
-## 修改密码
+# 修改密码
+修改密码
+
 - Path：/v1/users/{id}/updatepassword
 
 - Method：POST

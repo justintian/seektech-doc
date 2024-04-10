@@ -1,5 +1,4 @@
 # 获取应用信息详情
-
 获取指定应用ID的信息
 
 - Path： /v1/applications/{id}

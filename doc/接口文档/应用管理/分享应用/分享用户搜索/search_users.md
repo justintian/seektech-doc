@@ -1,5 +1,4 @@
 # 查询可分享的用户
-
 根据模糊搜索值搜索相应的用户信息
 
 - Path： /v1/applications/{id}/available-share

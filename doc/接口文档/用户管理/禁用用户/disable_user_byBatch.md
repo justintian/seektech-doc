@@ -1,4 +1,6 @@
-## 批量禁用用户
+# 批量禁用用户
+批量禁用用户
+
 - Path：/v1/users/batch-disable
 
 - Method：POST

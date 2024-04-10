@@ -1,5 +1,4 @@
 # 复制知识库
-
 将知识库复制一个副本
 
 - Path： /v1/knowledgebases/{id}/copy

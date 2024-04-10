@@ -1,5 +1,4 @@
 # 编辑知识库
-
 知识库的详情更新
 
 - Path： /v1/knowledgebases/{id}

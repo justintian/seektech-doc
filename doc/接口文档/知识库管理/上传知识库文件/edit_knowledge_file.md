@@ -1,5 +1,4 @@
 # 更新知识库文件步骤
-
 根据对应的存储服务，使用获取的上传链接和存储key上传文件。
 
 - Path： /v1/knowledgebases/{id}/files
