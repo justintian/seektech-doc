@@ -19,14 +19,4 @@
 
 # 寻知汇大模型知识库应用产品文档
 
-[寻知汇](https://www.seektech.com) 产品简要介绍
-
-## 基本概念说明
-
-## 快速上手指南
-
-## 下一章节 
-学习 [知识库管理](./doc/知识库管理/kb.md).
-
-## 联系我们
-欢迎访问 [寻知汇](https://www.seektech.com) SaaS平台 或者邮件联系我们 [寻知汇](mailto:contact@seektech.com)
+[寻知汇](https://seektech-ai.cn/) 产品API文档
