@@ -1,7 +1,6 @@
 <!-- _sidebar.md -->
 
 
-* [主页](./doc/接口文档/index)
 * [API文档](./doc/接口文档/index)
   * [认证授权](./doc/接口文档/sso)
   * [知识库管理](./doc/接口文档/知识库管理/kb_admin.md)
